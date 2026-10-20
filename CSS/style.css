@@ -1,1 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&family=Jim+Nightshade&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Changa+One:ital@0;1&family=Jim+Nightshade&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kings&display=swap');
+
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: 0;
+    color: white;
+    font-family: "Changa One", sans-serif; 
+}
+
+header {
+    background: linear-gradient(to top, rgba(0, 0, 0, 1), rgb(33, 0, 39));
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+body
+{
+    background: black;
+}
+
+main
+{
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+    background-image:  linear-gradient(to bottom, rgba(255, 248, 154, 0.5), rgba(0, 0, 0, 0.5)), url("../IMG/nullscape-video-fundo2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    gap: 10px;
+
+    width: 100%;
+}
+
+.image_icon {
+    width: 70px;
+    height: 70px;
+    margin: 0%;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%; 
+    justify-content: center;  
+    
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.navegacao {
+    border-top: solid 1px white;
+    font-family: "Kings", cursive;
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    font-size: 20px;
+
+    justify-content: center;
+    letter-spacing: 5px;
+    background: rgb(0, 0, 0);
+
+    margin-top: -5px;
+
+    font-size: 15px;
+
+}
+
+li {
+    display: flex;
+    margin: 10px;
+     transition: 0.2s ease-in-out;
+}
+
+#null {
+    font-family: "Kings", cursive;
+    font-size: 45px;
+    transition: 0.5s ease-in-out;
+}
+
+#scape {
+    font-family: "Kings", cursive;
+    font-size: 20px;
+    transition: 0.5s ease-in-out;
+}
+
+#noticia:hover, #inicio:hover {
+    font-size: 25px;
+    transition: 0.4s ease-in-out;
+}
+
+#noticia, #inicio {
+    font-family: "Kings", cursive;
+    font-size: 10px;
+}
+
+#null:hover + #scape {
+    font-size: 30px;
+    transition: 0.3s ease-in-out;
+}
+#null:hover {
+    font-size: 60px;
+    transition: 0.3s ease-in-out;
+}
+
+.card
+{
+    align-items: center;
+    background: rgba(54, 0, 56, 0.75);
+
+    margin: 10px;
+    padding: 10px;
+
+    border: solid white 2px;
+}
+
+.card-title {
+    color: rgb(255, 254, 255);
+
+    font-family: "Kings", cursive;
+    font-size: 50px;
+}
+
+.card-text {
+    color: rgb(255, 254, 255);
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
